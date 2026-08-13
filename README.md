@@ -1,32 +1,19 @@
-# Chicago Executive Charters
+# NOT THE LIVE SITE
 
-Luxury ground transportation site — Mercedes Sprinters, executive sedans, SUVs, stretch limousines, party buses, and shuttle vans.
+This repository is a discarded Grok-chat scaffold. It is **not** chicagoexecutivecharters.com.
 
-**Live domain (existing):** [chicagoexecutivecharters.com](https://chicagoexecutivecharters.com)
+Do **not** connect it to the Vercel project `chicago-executive-charters`.
+Do **not** assign the domain `chicagoexecutivecharters.com`.
+Do **not** deploy this TanStack/React tree over the live static site.
 
-## Stack
+## Live site (edit this instead)
 
-- TanStack Start + React 19 + Vite
-- Tailwind v4
-- Keyword-optimized pages for fleet, services, locations, blog
+- Domain: https://chicagoexecutivecharters.com
+- GitHub: **royalcarriage/chicago-executive-charters** (private)
+- Vercel project: `chicago-executive-charters` on team Royal Chi Enterprise
+- Production branch: `main`
+- Stack: static HTML/CSS/JS. Edit root `*.html`, `css/`, `js/`. Never hand-edit `dist/`.
+- Brand: Sprinter limos + executive shuttle vans only. CEC has no party buses, stretch limos, or charter buses.
 
-## Local
-
-```bash
-npm install
-npm run dev
-```
-
-## Vercel
-
-This repo is intended to be connected to the **Royal Chi Enterprise** Vercel team. After GitHub is linked, pushes to `main` deploy automatically.
-
-Connect existing project `chicago-executive-charters` **only after review** — this is a new site implementation and should be merged or swapped in deliberately so LimoFlow booking and the current domain are not overwritten blindly.
-
-## Pages
-
-- `/` Home
-- `/fleet` + `/fleet/:slug` vehicles
-- `/services` + `/services/:slug` services
-- `/locations` + `/locations/:slug`
-- `/about` `/pricing` `/contact` `/blog`
+If GitHub returns 404 on the private repo, accept the collaborator invite as `royalcarriagelimollc-dot`:
+https://github.com/royalcarriage/chicago-executive-charters/invitations
